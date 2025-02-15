@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run hello world
-        run: echo "🎉 Step of the job is running on ${{ runner.os }}!"
+        run: echo "Hello world Step of the job is running on ${{ runner.os }}!"
